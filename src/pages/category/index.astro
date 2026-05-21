@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+
+const posts = await getCollection('blog');
+const categoryCounts = new Map<string, number>();
+
+for (const post of posts) {
+	const category = post.data.category;
+	if (!category) continue;
+	categoryCounts.set(category, (categoryCounts.get(category) ?? 0) + 1);
+}
+
+const categories = [...categoryCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Categories | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Categories</h1>
+			<ul>
+				{
+					categories.map(([category, count]) => (
+						<li>
+							<a href={`/category/${encodeURIComponent(category)}/`}>
+								{category} ({count})
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>
