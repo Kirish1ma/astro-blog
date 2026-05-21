@@ -1,10 +1,10 @@
 ---
 title: Le Mythe de Sisyphe 01
-author: Kirishima
-date: 2025-11-08
 description:
+pubDate: 2025-11-08
+author: Kirishima
+category: Fragments
 tags:
-  - cat-Fragments
   - Albert_Camus
   - Edmund_Husserl
   - Le_Mythe_de_Sisyphe

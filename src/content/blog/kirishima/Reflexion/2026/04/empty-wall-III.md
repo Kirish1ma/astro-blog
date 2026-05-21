@@ -1,10 +1,10 @@
 ---
 title: 敘事模板的邊界
-author: Kirishima
-date: 2026-04-19
 description: 話題的進展有些偏向形而上的方向
+pubDate: 2026-04-19
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - systems
   - interpretation
   - social-narrative

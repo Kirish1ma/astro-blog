@@ -1,11 +1,7 @@
 ---
 title:
-author: Kirishima
-date: 1849-10-07
 description:
-categories:
-  - 
-tags:
-  - cat-Development
-  - cat-DevOps
+pubDate: 1849-10-07
+author: Kirishima
+category: Development
 ---

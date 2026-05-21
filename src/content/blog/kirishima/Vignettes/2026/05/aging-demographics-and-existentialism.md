@@ -1,10 +1,10 @@
 ---
 title: 未完成的問題
-author: Kirishima
-date: 2026-05-09
 description:
+pubDate: 2026-05-09
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - existentialism
   - systems
   - aging

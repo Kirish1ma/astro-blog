@@ -1,11 +1,7 @@
 ---
 title:
-author: Kirishima
-date: 1849-10-07
 description:
-categories:
-  - 
-tags:
-  - cat-Development
-  - cat-Back-end
+pubDate: 1849-10-07
+author: Kirishima
+category: Development
 ---

@@ -1,10 +1,10 @@
 ---
 title: ThreeDays Part III
-author: Kirishima
-date: 2026-03-01
 description: The Fall of the House of Usher
+pubDate: 2026-03-01
+author: Kirishima
+category: Novels
 tags:
-  - cat-Novels
   - threedays
 ---
 

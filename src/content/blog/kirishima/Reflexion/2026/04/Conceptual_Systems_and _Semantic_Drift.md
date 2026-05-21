@@ -1,10 +1,10 @@
 ---
 title: 概念体系与意义漂移 by Hatsumi
-author: Kirishima
-date: 2026-04-11
 description: Conceptual Systems and Semantic Drift
+pubDate: 2026-04-11
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - concept
   - language
   - structure

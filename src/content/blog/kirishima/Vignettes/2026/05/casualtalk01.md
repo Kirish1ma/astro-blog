@@ -1,10 +1,10 @@
 ---
 title: 躺平話術與外部歸因敘事
-author: Kirishima
-date: 2026-05-04
 description:
+pubDate: 2026-05-04
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - narrative
   - social-narrative
   - systems

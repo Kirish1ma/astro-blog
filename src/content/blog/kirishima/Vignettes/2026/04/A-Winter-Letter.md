@@ -1,10 +1,10 @@
 ---
 title: 寄懷
-author: Kirishima
-date: 2026-04-24
 description:
+pubDate: 2026-04-24
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - letter
   - winter
   - well-wishes

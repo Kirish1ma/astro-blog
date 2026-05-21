@@ -1,10 +1,10 @@
 ---
 title: 元認知
-author: Kirishima
-date: 2026-04-25
 description:
+pubDate: 2026-04-25
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - psychology
   - death
   - metacognition

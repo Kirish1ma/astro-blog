@@ -1,10 +1,10 @@
 ---
 title: 有關自我同一性的簡短個人想法
-author: Kirishima
-date: 2026-02-20
 description:
+pubDate: 2026-02-20
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - identity
   - personal-identity
   - memory

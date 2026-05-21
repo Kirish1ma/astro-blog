@@ -1,10 +1,9 @@
 ---
 title: 东京失锚 / Tokyo Adrift
-author:
-date: 2026-03-19
 description: 译者留 这篇杂志大概是通过描写日本相扑与民族认同来映射极右翼政权与日本移民问题,挺有深度的,就是可能有点以城市为中心,还有点缺乏论证.个人拙见
-tags:
-  - cat-Report
+pubDate: 2026-03-19
+author:
+category: Report
 ---
 
 未完成,未经润色.

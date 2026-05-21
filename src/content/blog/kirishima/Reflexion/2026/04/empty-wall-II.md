@@ -1,10 +1,10 @@
 ---
 title: It just looks like an Null Pointer.
-author: Kirishima
-date: 2026-04-18
 description: 無意義的空墻被賦予空虛宏偉的哲學解讀有多大程度是讀者的個人理解還是被社會敘事灌溉進去的空指針?
+pubDate: 2026-04-18
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - systems
   - interpretation
   - underdetermination

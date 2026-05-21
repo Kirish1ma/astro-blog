@@ -1,10 +1,10 @@
 ---
 title: ThreeDays Part IV
-author: Kirishima
-date: 2026-03-01
 description: The Raven
+pubDate: 2026-03-01
+author: Kirishima
+category: Novels
 tags:
-  - cat-Novels
   - threedays
 ---
 

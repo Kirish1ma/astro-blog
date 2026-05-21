@@ -1,10 +1,10 @@
 ---
 title: Provisional Laws.
-author: Kirishima
-date: 2026-02-04
 description:
+pubDate: 2026-02-04
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - causality
   - induction
   - survivorship-bias

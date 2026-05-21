@@ -1,10 +1,10 @@
 ---
 title: 關於個人的碎碎念
-author: Kirishima
-date: 2026-05-10
 description:
+pubDate: 2026-05-10
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - technology
   - systems
   - social-narrative

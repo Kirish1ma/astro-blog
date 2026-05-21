@@ -1,10 +1,10 @@
 ---
 title: 政權的性質差異
-author: Kirishima
-date: 2026-04-19
 description: 相比革命性政權,官僚型政權的形成機制相對似乎并不明瞭
+pubDate: 2026-04-19
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - politics
   - governance
   - bureaucracy

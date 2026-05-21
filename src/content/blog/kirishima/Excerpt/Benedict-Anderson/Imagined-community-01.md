@@ -1,10 +1,10 @@
 ---
 title: 想象的共同體：民族主義的文化根源(部分節選)
-author: Benedict Anderson
-date: 2026-05-05
 description: 《想象的共同體》節選，討論無名戰士紀念碑、死亡與不朽、宗教想像和民族主義之間的關係，以及民族如何將偶然轉化為命運與連續性。
+pubDate: 2026-05-05
+author: Benedict Anderson
 tags:
-  - cat-excerpt
+  - excerpt
   - history
   - narrative
   - meaning

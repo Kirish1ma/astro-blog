@@ -1,8 +1,8 @@
 ---
 title: ThreeDays Afterword
-author: Kirishima
-date: 2026-03-01
 description: 书末附言
+pubDate: 2026-03-01
+author: Kirishima
 tags:
   - threedays
 ---

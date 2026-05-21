@@ -1,10 +1,10 @@
 ---
 title: Sword0fDamocles
-author: Kirishima
-date: 2026-02-03
 description:
+pubDate: 2026-02-03
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - existentialism
   - existential-anxiety
   - nihilism

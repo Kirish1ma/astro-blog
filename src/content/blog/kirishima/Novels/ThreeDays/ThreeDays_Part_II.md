@@ -1,10 +1,10 @@
 ---
 title: ThreeDays Part II
-author: Kirishima
-date: 2026-03-01
 description: THE PREMATURE BURIAL
+pubDate: 2026-03-01
+author: Kirishima
+category: Novels
 tags:
-  - cat-Novels
   - threedays
 ---
 

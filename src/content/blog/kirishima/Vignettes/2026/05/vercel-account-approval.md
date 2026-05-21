@@ -1,10 +1,10 @@
 ---
 title: 被申訴審核效率震驚到
-author: Kirishima
-date: 2026-05-10
 description:
+pubDate: 2026-05-10
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - technology
   - systems
 ---

@@ -1,10 +1,10 @@
 ---
 title: 對之前的理想主義結局去結構傾向的想法
-author: Kirishima
-date: 2026-04-29
 description:
+pubDate: 2026-04-29
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - narrative
   - interpretation
   - social-narrative

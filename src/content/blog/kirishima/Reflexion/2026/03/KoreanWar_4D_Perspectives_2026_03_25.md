@@ -1,10 +1,10 @@
 ---
 title: 多重视角下的历史与主体性的延申(乱起的名字)
-author: Kirishima
-date: 2026-03-25
 description:
+pubDate: 2026-03-25
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - history
   - perspective
   - subjectivity

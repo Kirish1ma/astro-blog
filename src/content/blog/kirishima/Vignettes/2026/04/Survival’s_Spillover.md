@@ -1,10 +1,10 @@
 ---
 title: 生存的外溢
-author: Kirishima
-date: 2026-04-05
 description:
+pubDate: 2026-04-05
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - technology
   - survival
   - progress

@@ -1,10 +1,10 @@
 ---
 title: 五一假日被毀了
-author: Kirishima
-date: 2026-05-03
 description: 五一假日被毀了
+pubDate: 2026-05-03
+author: Kirishima
+category: Vignettes
 tags:
-  - cat-Vignettes
   - illness
   - medical-care
   - diet

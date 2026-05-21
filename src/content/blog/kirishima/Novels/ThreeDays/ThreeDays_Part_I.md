@@ -1,10 +1,10 @@
 ---
 title: ThreeDays Part I
-author: Kirishima
-date: 2026-02-28
 description: The Masque of the Red Death
+pubDate: 2026-02-28
+author: Kirishima
+category: Novels
 tags:
-  - cat-Novels
   - threedays
 ---
 

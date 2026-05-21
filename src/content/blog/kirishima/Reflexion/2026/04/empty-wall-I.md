@@ -1,10 +1,10 @@
 ---
 title: It just looks like an empty wall.
-author: Kirishima
-date: 2026-04-16
 description:
+pubDate: 2026-04-16
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - philosophy
   - systems
   - meaning

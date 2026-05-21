@@ -1,10 +1,10 @@
 ---
 title: 死亡的沉淀与空转感
-author: Kirishima
-date: 2026-02-05
 description:
+pubDate: 2026-02-05
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - death
   - nihilism
   - reconciliation

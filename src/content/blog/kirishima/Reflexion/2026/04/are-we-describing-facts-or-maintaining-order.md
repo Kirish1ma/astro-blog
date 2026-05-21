@@ -1,10 +1,10 @@
 ---
 title: 當我們使用"陋習"時.實在描述事實,還是在維護某種秩序?
-author: Kirishima
-date: 2026-04-28
 description: "When we use the term 'bad habit,' are we describing facts, or are we maintaining a certain kind of order?"
+pubDate: 2026-04-28
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - language
   - ethics
   - boundaries

@@ -1,10 +1,10 @@
 ---
 title: 内在父母与失效的模型
-author: Kirishima
-date: 2026-02-26
 description: 内在父母与失效的模型 The Internal Parent and the Model That No Longer Works
+pubDate: 2026-02-26
+author: Kirishima
+category: Reflexion
 tags:
-  - cat-Reflexion
   - psychology
   - projection
   - trauma
