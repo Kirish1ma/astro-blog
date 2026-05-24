@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import { getCollection } from 'astro:content';
+import { type CollectionEntry, getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
@@ -8,8 +8,10 @@ import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
 const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+	(a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>) =>
+		b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+type BlogPost = CollectionEntry<'blog'>;
 ---
 
 <!doctype html>
@@ -62,6 +64,28 @@ const posts = (await getCollection('blog')).sort(
 				margin: 0;
 				color: rgb(var(--gray));
 			}
+			.taxonomy {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.4rem;
+				margin-top: 0.75rem;
+			}
+			.taxonomy a {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.25rem 0.6rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 999px;
+				color: rgb(var(--gray-dark));
+				font-size: 0.8rem;
+				line-height: 1.2;
+				text-decoration: none;
+			}
+			.taxonomy a:hover {
+				background-color: rgb(var(--accent));
+				border-color: rgb(var(--accent));
+				color: white;
+			}
 			ul li a:hover h4,
 			ul li a:hover .date {
 				color: rgb(var(--accent));
@@ -92,7 +116,7 @@ const posts = (await getCollection('blog')).sort(
 			<section>
 				<ul>
 					{
-						posts.map((post) => (
+						posts.map((post: BlogPost) => (
 							<li>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
@@ -103,6 +127,18 @@ const posts = (await getCollection('blog')).sort(
 										<FormattedDate date={post.data.pubDate} />
 									</p>
 								</a>
+								{(post.data.category || post.data.tags?.length) && (
+									<div class="taxonomy">
+										{post.data.category && (
+											<a href={`/category/${encodeURIComponent(post.data.category)}/`}>
+												{post.data.category}
+											</a>
+										)}
+										{post.data.tags?.map((tag: string) => (
+											<a href={`/tags/${encodeURIComponent(tag)}/`}>#{tag}</a>
+										))}
+									</div>
+								)}
 							</li>
 						))
 					}
