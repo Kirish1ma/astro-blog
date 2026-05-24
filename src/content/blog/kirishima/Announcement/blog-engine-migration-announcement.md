@@ -4,7 +4,7 @@ author: Kirishima
 pubDate: 2026-05-25
 description:
 category: Announcement
-heroImage: ../../../../assets/heroImage-02.jpg
+heroImage: ../../../../assets/heroImage-02.png
 tags:
   - Blog
   - Astro
