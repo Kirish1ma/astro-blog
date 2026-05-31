@@ -1,23 +1,30 @@
 ---
+type NoticeType = "translation" | "repost" | "controversial";
+
+interface Props {
+  type?: NoticeType;
+}
+
 const { type = "translation" } = Astro.props;
 
-const notices = {
-  translation: {
-    title: "Translation Notice",
-    text: "This article is a translated work. It is provided for non-commercial study, research, and cultural exchange only, and may not fully represent the original author’s intended meaning.",
-    zh: "本文為翻譯作品，僅供非商業性的學習、研究與文化交流使用，譯文可能無法完全代表原作者原意。",
-  },
-  repost: {
-    title: "Repost Notice",
-    text: "This article is reposted or republished from another source. Copyright and related rights remain with the original author or rights holder unless otherwise stated.",
-    zh: "本文為轉載或再發布內容，除非另有說明，原文著作權及相關權利仍歸原作者或權利方所有。",
-  },
-  controversial: {
-    title: "Content Notice",
-    text: "This article may involve controversial, sensitive, or disputed topics. The content is provided for reference and discussion, and does not necessarily represent the views of this site.",
-    zh: "本文可能涉及具爭議性、敏感或存在分歧的議題，內容僅供參考與討論，不必然代表本站立場。",
-  },
-};
+const notices: Record<NoticeType, { title: string; text: string; zh: string }> =
+  {
+    translation: {
+      title: "Translation Notice",
+      text: "This article is a translated work. It is provided for non-commercial study, research, and cultural exchange only, and may not fully represent the original author’s intended meaning.",
+      zh: "本文為翻譯作品，僅供非商業性的學習、研究與文化交流使用，譯文可能無法完全代表原作者原意。",
+    },
+    repost: {
+      title: "Repost Notice",
+      text: "This article is reposted or republished from another source. Copyright and related rights remain with the original author or rights holder unless otherwise stated.",
+      zh: "本文為轉載或再發布內容，除非另有說明，原文著作權及相關權利仍歸原作者或權利方所有。",
+    },
+    controversial: {
+      title: "Content Notice",
+      text: "This article may involve controversial, sensitive, or disputed topics. The content is provided for reference and discussion, and does not necessarily represent the views of this site.",
+      zh: "本文可能涉及具爭議性、敏感或存在分歧的議題，內容僅供參考與討論，不必然代表本站立場。",
+    },
+  };
 
 const notice = notices[type] ?? notices.translation;
 ---
