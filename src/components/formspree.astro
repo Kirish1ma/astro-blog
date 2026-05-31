@@ -1,127 +1,131 @@
 ---
-const formId = 'xojblznb';
+const formId = "xojblznb";
 ---
 
 <style>
-/* 郵箱表單 */
-.contact-form {
-box-sizing: border-box;
-width: 100%;
-margin: 2rem 0 0;
-padding: 1.25rem;
-border: 1px solid rgb(var(--gray-light));
-border-radius: 12px;
-background: rgba(255, 255, 255, 0.72);
-box-shadow: 0 2px 8px rgba(var(--gray), 12%);
-}
+  /* 郵箱表單 */
+  .contact-form {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 2rem 0 0;
+    padding: 1.25rem;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.72);
+    box-shadow: 0 2px 8px rgba(var(--gray), 12%);
+  }
 
-.form-field {
-display: grid;
-gap: 0.4rem;
-margin-bottom: 1rem;
-}
+  .form-field {
+    display: grid;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
 
-.contact-form label {
-color: rgb(var(--gray-dark));
-font-size: 0.95rem;
-font-weight: 700;
-line-height: 1.3;
-}
+  .contact-form label {
+    color: rgb(var(--gray-dark));
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
 
-.contact-form input,
-.contact-form textarea {
-box-sizing: border-box;
-width: 100%;
-padding: 0.7rem 0.8rem;
-border: 1px solid rgba(var(--gray), 35%);
-border-radius: 8px;
-background-color: #fff;
-color: rgb(var(--black));
-font: inherit;
-font-size: 1rem;
-line-height: 1.5;
-transition:
-border-color 0.2s ease,
-box-shadow 0.2s ease,
-background-color 0.2s ease;
-}
+  .contact-form input,
+  .contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    border: 1px solid rgba(var(--gray), 35%);
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgb(var(--black));
+    font: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      background-color 0.2s ease;
+  }
 
-.contact-form textarea {
-min-height: 9rem;
-resize: vertical;
-}
+  .contact-form textarea {
+    min-height: 9rem;
+    resize: vertical;
+  }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-outline: none;
-border-color: var(--accent);
-box-shadow: 0 0 0 3px rgba(35, 55, 255, 14%);
-}
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(35, 55, 255, 14%);
+  }
 
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-color: rgba(var(--gray-dark), 55%);
-}
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: rgba(var(--gray-dark), 55%);
+  }
 
-.contact-form button {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-min-height: 2.5rem;
-padding: 0.55rem 1.2rem;
-border: 1px solid var(--accent);
-border-radius: 999px;
-background-color: var(--accent);
-color: #fff;
-font: inherit;
-font-size: 0.95rem;
-font-weight: 700;
-line-height: 1;
-text-decoration: none;
-cursor: pointer;
-transition:
-background-color 0.2s ease,
-border-color 0.2s ease,
-transform 0.2s ease,
-box-shadow 0.2s ease;
-}
+  .contact-form button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    padding: 0.55rem 1.2rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background-color: var(--accent);
+    color: #fff;
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
 
-.contact-form button:hover {
-border-color: var(--accent-dark);
-background-color: var(--accent-dark);
-box-shadow: 0 6px 16px rgba(var(--gray), 24%);
-transform: translateY(-1px);
-}
+  .contact-form button:hover {
+    border-color: var(--accent-dark);
+    background-color: var(--accent-dark);
+    box-shadow: 0 6px 16px rgba(var(--gray), 24%);
+    transform: translateY(-1px);
+  }
 
-.contact-form button:focus-visible {
-outline: 3px solid rgba(35, 55, 255, 24%);
-outline-offset: 3px;
-}
+  .contact-form button:focus-visible {
+    outline: 3px solid rgba(35, 55, 255, 24%);
+    outline-offset: 3px;
+  }
 
-.contact-form button:active {
-box-shadow: none;
-transform: translateY(0);
-}
+  .contact-form button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
 
-@media (max-width: 720px) {
-.contact-form {
-margin-top: 1.5rem;
-padding: 1rem;
-border-radius: 10px;
-}
-}
+  @media (max-width: 720px) {
+    .contact-form {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+  }
 </style>
 
-<form method="POST" action={`https://formspree.io/f/${formId}`} class="contact-form">
-<div class="form-field">
-<label for="email">Email Address</label>
-<input id="email" type="email" name="email" autocomplete="email" required />
-</div>
+<form
+  method="POST"
+  action={`https://formspree.io/f/${formId}`}
+  class="contact-form"
+>
+  <div class="form-field">
+    <label for="email">Email Address</label>
+    <input id="email" type="email" name="email" autocomplete="email" required />
+  </div>
 
-<div class="form-field">
-<label for="message">Message</label>
-<textarea id="message" name="message" required></textarea>
-</div>
+  <div class="form-field">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
 
-<button type="submit">Submit</button>
+  <button type="submit">Submit</button>
 </form>
