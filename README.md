@@ -1,6 +1,6 @@
 這是一個剛開發的 Astro 博客,模板來自 Astro 自帶模板,部署于 Vercel
 
-README: XPPlayer.astro
+# XPPlayer.astro
 
 這是一個從 11ty shortcode `{% xpPlayer %}` 遷移出來的 Astro 單檔音樂播放器組件。
 
@@ -47,7 +47,6 @@ Props:
 - ID3 自動封面功能會從 CDN 載入 `jsmediatags@3.9.7`。
 - 若你不需要自動讀取 ID3 封面，可以移除 `loadJsMediaTags`、`bytesToBase64` 和 `ensureCoverArtwork` 裡的自動讀取邏輯。
 - 目前樣式是 scoped 到此 Astro component；如果你拆成外部 CSS，請確認 `.xp-player` 相關類名仍可作用。
-- 原 11ty shortcode 曾輸出兩個 `<audio>`，此 Astro 版本只保留一個，因為互動程式只需要第一個 audio。
 
 原 11ty 對應來源：
 
